@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:quote_A2 xmlns:ns2="http://www.reifen.net">
+  <DocumentID>A2</DocumentID>
+  <Variant>5</Variant>
+  <ErrorHead>
+    <ErrorCode>1</ErrorCode>
+  </ErrorHead>
+  <CustomerReference>
+    <DocumentID></DocumentID>
+  </CustomerReference>
+  <BuyerParty>
+    <PartyID>233082</PartyID>
+    <AgencyCode>92</AgencyCode>
+  </BuyerParty>
+  <OrderLine>
+    <LineID>1</LineID>
+    <OrderedArticle>
+      <ArticleIdentification>
+        <EANUCCArticleID>3528708756786</EANUCCArticleID>
+      </ArticleIdentification>
+      <RequestedQuantity>
+        <QuantityValue>2</QuantityValue>
+      </RequestedQuantity>
+      <Error>
+        <ErrorCode>940</ErrorCode>
+        <ErrorText>Incorrect supplier material number (not known on supplier side)</ErrorText>
+      </Error>
+    </OrderedArticle>
+  </OrderLine>
+</ns2:quote_A2>
